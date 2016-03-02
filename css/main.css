@@ -1,0 +1,30 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+}
+.wrapper{
+  position: relative;
+  overflow: hidden;
+}
+.menu-nav{
+  background-color: rgba(0,0,0,0.7);
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 100vh;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  display:flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.icon-container{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  display: flex;
+  flex-direction: column;
+  margin-top: calc(50vh - 220px);
+}
